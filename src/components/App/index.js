@@ -9,7 +9,7 @@ import ReposResults from '../ReposResults';
 import Faq from '../Faq';
 import ButtonMoreResults from '../ButtonMoreResults';
 import LoadingResults from '../LoadingResults';
-import Page404 from '../Page404';
+import PageNotFound from '../PageNotFound';
 
 import GitHubLogo from '../../assets/images/logo-github.png';
 import './styles.scss';
