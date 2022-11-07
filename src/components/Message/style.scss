@@ -1,0 +1,9 @@
+@use '../../styles/vars';
+
+.message {
+   background: vars.$lighterColor;
+   padding: 1rem;
+   border: solid #dededf 0.2px;
+   margin: 1rem 0;
+   border-radius: 3px ;
+}

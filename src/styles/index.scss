@@ -1,0 +1,15 @@
+@use 'reset';
+@use 'vars';
+
+.body {
+  background: vars.$baseColor;
+  height: 100vh;
+}
+
+#root {
+  margin: 0 auto;
+  width: 80%;
+  padding: 1% 1%;
+  background-color: vars.$altColor;
+  min-height: 100%;
+}
