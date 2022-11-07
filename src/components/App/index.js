@@ -9,7 +9,7 @@ import ReposResults from '../ReposResults';
 import Faq from '../Faq';
 import ButtonMoreResults from '../ButtonMoreResults';
 import LoadingResults from '../LoadingResults';
-// import PageNotFound from '../Page404';
+import PageNotFound from '../Page404';
 
 import GitHubLogo from '../../assets/images/logo-github.png';
 import './styles.scss';
@@ -124,7 +124,7 @@ function App() {
             </>
           )}
         />
-        {/*<Route path="*" element={<PageNotFound />} */}
+        <Route path="/*" element={< PageNotFound />} />
       </Routes>
     </div>
   );
