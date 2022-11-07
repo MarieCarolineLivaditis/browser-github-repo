@@ -11,7 +11,7 @@ import App from './components/App';
 // 1. Élément React racine (celui qui contient l'ensemble de l'app)
 //    => crée une structure d'objets imbriqués (DOM virtuel)
 const rootReactElement = (
-  <BrowserRouter>
+  <BrowserRouter basename="/browser-github-repo">
     <App />
   </BrowserRouter>
 );
