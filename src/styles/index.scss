@@ -1,7 +1,7 @@
 @use 'reset';
 @use 'vars';
 
-body {
+.body {
   background: vars.$baseColor;
   height: 100vh;
 }
