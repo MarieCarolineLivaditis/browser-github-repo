@@ -11,7 +11,7 @@ import ButtonMoreResults from '../ButtonMoreResults';
 import LoadingResults from '../LoadingResults';
 // import PageNotFound from '../Page404';
 
-import GitHubLogo from '../../../public/images/logo-github.png';
+import GitHubLogo from '../../assets/images/logo-github.png';
 import './styles.scss';
 
 // == Composant
