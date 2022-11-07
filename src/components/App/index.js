@@ -88,7 +88,7 @@ function App() {
       <img className="logo" src={GitHubLogo} alt="Githublogo" />
       <Routes>
         <Route
-          path="/search"
+          path="/"
           element={(
             <>
               <MenuBar />
